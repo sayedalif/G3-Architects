@@ -96,3 +96,79 @@ nav ul li a:visited {
 .image-container img {
   padding-bottom: 45px;
 }
+
+/* main */
+
+main {
+  display: flex;
+  margin: 85px 301px;
+  align-items: center;
+}
+
+.img-section {
+  width: 50%;
+  /* display: flex; */
+}
+
+.f-img-group {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.first-img {
+  margin-right: 24px;
+}
+
+/* main-section-txt */
+
+.main-section-txt {
+  width: 50%;
+  margin-left: 73px;
+}
+
+/* main p txt */
+
+.main-section-txt div p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.main-txt-first {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #727272;
+}
+
+.main-txt-second {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+
+.main-txt-last {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #ff900e;
+}
+
+/* main-btn */
+
+.main-btn {
+  padding: 21px 24px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
