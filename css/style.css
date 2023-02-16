@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  font-family: 'Work Sans';
+}
+
+/* header */
+
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* heading text design */
+.nav-heading-text {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-left: 228px;
+  margin-top: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* link flex */
+
+nav ul {
+  display: flex;
+  margin-right: 240px;
+  margin-top: 63px;
+}
+
+/* link design */
+nav ul li {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #424242;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+/* heading-txt-section */
+
+.heading-txt-section {
+  text-align: center;
+  margin-top: 102px;
+  margin-bottom: 50px;
+}
+
+/* heading-main-txt */
+
+.heading-main-txt {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #131313;
+}
+
+/* heading-txt-section p txt */
+
+.heading-txt-section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  /* Dark 03 */
+
+  color: #727272;
+}
+
+/* heading-txt-section explore now button */
+.heading-txt-section button {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff900e;
+  border-radius: 8px;
+  padding: 20px 25px;
+  border: none;
+}
+
+.image-container {
+  text-align: center;
+}
+.image-container img {
+  padding-bottom: 45px;
+}
