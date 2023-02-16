@@ -38,9 +38,16 @@ nav ul li {
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
-  color: #424242;
+
   list-style-type: none;
   margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a:visited {
+  color: #424242;
 }
 
 /* heading-txt-section */
@@ -67,12 +74,7 @@ nav ul li {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  /* or 162% */
-
   text-align: center;
-
-  /* Dark 03 */
-
   color: #727272;
 }
 
