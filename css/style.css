@@ -99,7 +99,7 @@ nav ul li a:visited {
 
 /* main */
 
-main {
+.main {
   display: flex;
   margin: 85px 301px;
   align-items: center;
@@ -171,4 +171,85 @@ main {
   text-align: center;
   color: #ffffff;
   cursor: pointer;
+}
+
+/* second-main-section */
+
+.second-main-section {
+  display: flex;
+  margin: 130px 240px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.second-main-section-txt {
+  width: 50%;
+}
+
+.second-main-section-txt h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+
+.second-main-section-txt p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 30px;
+}
+
+/* second-main-section-box */
+
+.second-main-section-box {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px 42px;
+  margin-bottom: 20px;
+  margin-right: 54px;
+}
+
+.second-main-section-box h6 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+}
+
+.second-main-section-box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-top: 10px;
+}
+
+/* second-img-container */
+
+.second-img-container {
+  width: 50%;
+}
+
+.second-img-container img {
+  width: 100%;
+}
+
+/* second-section-btn */
+
+.second-section-btn {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 50px;
+  color: #ffffff;
+  background: #ff900e;
+  border-radius: 8px;
+  position: absolute;
+  padding: 20px 20px;
+  border: none;
+  bottom: 0;
+  left: 30%;
 }
