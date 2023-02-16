@@ -253,3 +253,25 @@ nav ul li a:visited {
   bottom: 0;
   left: 30%;
 }
+
+/* facts-section */
+
+.facts-section {
+  margin-left: 240px;
+}
+
+.facts-section h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+
+.facts-section p {
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+margin-bottom: 108px;
+}
