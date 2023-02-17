@@ -334,3 +334,12 @@ nav ul li a:visited {
   font-size: 16px;
   line-height: 26px;
 }
+
+.sponsors-section {
+  margin: 0px 240px;
+  text-align: center;
+}
+
+.sponsors-section img {
+  margin-right: 150px;
+}
