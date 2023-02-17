@@ -270,8 +270,47 @@ nav ul li a:visited {
 
 .facts-section p {
   font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #727272;
-margin-bottom: 108px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 108px;
+}
+
+/* icon-boxs */
+
+.icon-boxs {
+  display: flex;
+  text-align: center;
+  margin-left: 290px;
+}
+
+/* boxs */
+
+.boxs {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  margin-right: 125px;
+  width: 241.83px;
+  height: 241.83px;
+  padding: 20px 20px;
+  margin-bottom: 180px;
+}
+
+.boxs img {
+  width: 45.22px;
+  height: 45.22px;
+}
+
+.boxs h1 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+}
+
+.boxs p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
 }
