@@ -254,6 +254,17 @@ nav ul li a:visited {
   left: 30%;
 }
 
+/* bonus-section */
+
+.bonus-section {
+  text-align: center;
+}
+
+.bonus-section img {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
 /* facts-section */
 
 .facts-section {
@@ -282,7 +293,11 @@ nav ul li a:visited {
   display: flex;
   text-align: center;
   margin-left: 290px;
+  
+  
 }
+
+
 
 /* boxs */
 
@@ -294,6 +309,12 @@ nav ul li a:visited {
   height: 241.83px;
   padding: 20px 20px;
   margin-bottom: 180px;
+  transition: all .2s ease-in-out;
+}
+
+.boxs:hover{
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .boxs img {
@@ -345,6 +366,7 @@ nav ul li a:visited {
 
 .sponsors-section img {
   margin-right: 150px;
+  filter: grayscale(100%);
 }
 
 /* copyright-section */
@@ -354,10 +376,11 @@ nav ul li a:visited {
   background-color: #fff4e7;
   border-radius: 8px;
   width: 1440px;
-height: 100px;
-margin: 0 auto;
+  height: 100px;
+  margin: 0 auto;
 }
 
 .copyright-section p {
   padding: 39px 0px;
 }
+
